@@ -1,0 +1,71 @@
+/* ===============================
+   VARIABLES (Style Guide)
+================================= */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+/* ===============================
+   RESET BÁSICO
+================================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   BODY
+================================= */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--slate-300);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+/* ===============================
+   CARD
+================================= */
+.card {
+  background-color: var(--white);
+  max-width: 320px;
+  padding: 16px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* ===============================
+   IMAGEN
+================================= */
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* ===============================
+   TÍTULO
+================================= */
+.card h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--slate-900);
+  margin-bottom: 16px;
+}
+
+/* ===============================
+   PÁRRAFO
+================================= */
+.card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--slate-500);
+}
